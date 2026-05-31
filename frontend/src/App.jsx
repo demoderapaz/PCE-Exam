@@ -37,7 +37,7 @@ export default function App() {
       <header className="topbar">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <span className="topbar-brand" onClick={() => navigate('library')} style={{ display: 'flex', alignItems: 'center' }}>
-            <svg width="120" height="36" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="160" height="48" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg">
               {/* Book/bubble icon */}
               <rect x="4" y="10" width="48" height="42" rx="8" fill="url(#grad1)"/>
               <rect x="10" y="16" width="36" height="30" rx="4" fill="white" fillOpacity="0.9"/>
