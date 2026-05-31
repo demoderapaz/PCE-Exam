@@ -9,8 +9,8 @@
   --border:    #2a3558;
   --text:      #e8eaf2;
   --text-dim:  #9ba5c0;
-  --amber:     #f0b429;
-  --amber-dim: #a67c1b;
+  --amber:     #1D6FEB;
+  --amber-dim: #1558C0;
   --green:     #3dd68c;
   --red:       #f87171;
   --font-body: 'Inter', sans-serif;
@@ -26,8 +26,8 @@
   --border:    #d0d5e8;
   --text:      #111827;
   --text-dim:  #4b5470;
-  --amber:     #92400e;
-  --amber-dim: #78350f;
+  --amber:     #1558C0;
+  --amber-dim: #1044A0;
   --green:     #15803d;
   --red:       #b91c1c;
 }
@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   background: var(--bg3);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 5px;
   gap: 6px;
 }
@@ -82,7 +82,7 @@ a:hover { text-decoration: underline; }
 .pill-tab {
   background: none;
   border: none;
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 0.85rem 1.6rem;
   font: 500 1rem var(--font-body);
   color: var(--text-dim);
@@ -101,10 +101,10 @@ a:hover { text-decoration: underline; }
   appearance: none;
   background: var(--bg3);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 4px;
   color: var(--text);
-  font: 500 0.8rem var(--font-body);
-  padding: 0.35rem 2rem 0.35rem 0.9rem;
+  font: 500 1rem var(--font-body);
+  padding: 0.85rem 2.2rem 0.85rem 0.9rem;
   cursor: pointer;
   outline: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ba5c0' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
@@ -116,11 +116,9 @@ a:hover { text-decoration: underline; }
 .subject-select:focus { border-color: var(--amber); }
 
 .topbar-brand {
-  font-family: var(--font-head);
-  font-size: 1.25rem;
-  color: var(--amber);
   cursor: pointer;
   grid-column: 1;
+  line-height: 1;
 }
 
 .topbar-actions {
@@ -159,7 +157,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 0.4rem;
   padding: 0.85rem 1.6rem;
-  border-radius: 999px;
+  border-radius: 4px;
   font: 500 1rem var(--font-body);
   cursor: pointer;
   border: 1px solid transparent;
@@ -213,7 +211,7 @@ a:hover { text-decoration: underline; }
 .card {
   background: var(--bg2);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 1.25rem 1.5rem;
 }
 .card + .card { margin-top: 1rem; }
@@ -227,7 +225,7 @@ a:hover { text-decoration: underline; }
 .exam-card {
   background: var(--bg2);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 1.25rem;
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s;
@@ -281,7 +279,7 @@ tr:hover td { background: var(--bg3); cursor: pointer; }
 .q-result {
   background: var(--bg2);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
 }
@@ -334,7 +332,7 @@ tr:hover td { background: var(--bg3); cursor: pointer; }
 /* ── Upload drop zone ─────────────────────────────────────── */
 .drop-zone {
   border: 1.5px dashed var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 2rem;
   text-align: center;
   color: var(--text-dim);
@@ -422,7 +420,7 @@ tr:hover td { background: var(--bg3); cursor: pointer; }
   width: 100%;
   padding: 0.65rem 0.9rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
   background: var(--bg2);
   color: var(--text);
   font: inherit;
@@ -503,7 +501,7 @@ tr:hover td { background: var(--bg3); cursor: pointer; }
 .md-body strong { font-weight: 600; color: var(--text); }
 .md-body em { font-style: italic; color: var(--text-dim); }
 .md-body code { font-family: var(--font-mono); font-size: 0.85em; background: var(--bg3); border: 1px solid var(--border); border-radius: 3px; padding: 0.1em 0.4em; }
-.md-body pre { background: var(--bg3); border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1.25rem; overflow-x: auto; margin: 0 0 1rem; }
+.md-body pre { background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; padding: 1rem 1.25rem; overflow-x: auto; margin: 0 0 1rem; }
 .md-body pre code { background: none; border: none; padding: 0; }
 .md-body blockquote { border-left: 3px solid var(--amber); margin: 0 0 0.9rem; padding: 0.4rem 1rem; color: var(--text-dim); font-style: italic; }
 .md-body hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
