@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
   border-radius: 4px;
   color: var(--text);
   font: 500 1rem var(--font-body);
-  padding: 0.85rem 2.2rem 0.85rem 0.9rem;
+  padding: 0.5rem 2.2rem 0.5rem 0.9rem;
   cursor: pointer;
   outline: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ba5c0' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
